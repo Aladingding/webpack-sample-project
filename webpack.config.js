@@ -1,8 +1,10 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+console.log('--------------------------开发模式--------------------------');
+
 module.exports = {
-    entry: __dirname+'/app/main.jsx', // 打包入口
+    entry: __dirname+'/app/main.jsx', // 打包入口，__dirname是node.js中的一个全局变量，它指向当前执行脚本所在的目录。
     output:{
         path: __dirname+"/build", // 打包出口，存放位置
         filename: 'bundle.js' // 打包后的文件名
