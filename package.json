@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "dev": "webpack --config webpack.config.js",
-    "server": "webpack-dev-server --open",
+    "server": "webpack-dev-server --colors --open",
     "build": "webpack --progress --config webpack.production.config.js"
   },
   "author": "tomy",
